@@ -1,0 +1,451 @@
+.ads-detail {
+  padding: 24px 24px 0 24px;
+  display: -webkit-box;
+  width: 100%;
+  height: 100%;
+  overflow: hidden auto;
+
+  .advertising-card__image img {
+    width: 100%;
+  }
+
+  .div-height {
+    height: 355px;
+  }
+  
+  .dsp-group-bar {
+    .title {
+      color: #444;
+    }
+    .crile {
+      display: inline-block; 
+      width: 8px; 
+      height: 8px; 
+      border-radius: 8px; 
+      background: #5cbef0;
+    }
+  }
+
+  .line-tooltip > p {
+    padding: 0 4px;
+  }
+
+  .line-tooltip > ul > li {
+    padding: 0 6px 0 10px;
+    position: relative;
+  }
+
+  .line-tooltip > ul > li > i {
+    position: absolute;
+    top: 8px;
+    left: 5px;
+  }
+
+  .line-tooltip > ul > li > .span-first {
+    color: #AAA;
+  }
+
+  .line-tooltip > ul > li > .span-last {
+    color: #5cbef0;
+  }
+
+  .area-graph {
+    margin: 24px 0 0 0;
+  }
+
+  .origin-url {
+    margin: 24px 0 0 0;
+  }
+
+  .ads-detail__list {
+    -webkit-box-flex: 1;
+    width: 1px;
+    margin: 0 0 0 526px;
+  }
+
+  .ads-detail__card {
+    max-width: 509px;
+    margin: 0 24px 0 0;
+    position: fixed;
+    top: 88px;
+  }
+
+  .engagement-trending {
+    margin: 0;
+  }
+
+  // Advertising Analysis and Suggestio
+  .analysis-suggestio {
+    border-top: 1px #DDD solid;
+    margin: 24px 0 0 0;
+    background: #FFF;
+
+    .analysis-suggestio__box, .analysis-suggestio__top {
+      height: 355px;
+      display: -webkit-box;
+      box-sizing: border-box;
+
+      .age-rati {
+        -webkit-box-flex: 1;
+        width: 1px;
+        overflow: hidden;
+        border-right: 1px #DDD solid;
+        box-sizing: border-box;
+        -webkit-box-align: center;
+        -webkit-box-pack: center;
+        display: -webkit-box;
+        position: relative;
+
+        h3 {
+          position: absolute;
+          top: 20px;
+          left: 14px;
+          font-size: 14px;
+          color: #444444;
+          // margin: 24px 0 0 24px;
+        }
+      }
+      .gender-rati {
+        -webkit-box-flex: 1;
+        width: 1px;
+        box-sizing: border-box;
+
+        h3 {
+          font-size: 14px;
+          color: #444444;
+          margin: 18px 0 0 24px;
+        }
+      }
+
+      .geo-distributio {
+        // pointer-events: none;
+        -webkit-box-flex: 1;
+        width: 1px;
+        box-sizing: border-box;
+        border-right: 1px #DDD solid;
+
+        .geo-distributio__map {
+          margin: 0 auto;
+          box-sizing: border-box;
+          height: 350px;
+          position: relative;
+          .map-box {
+            height: 328px;
+            .article {
+              height: 328px;
+            }
+          }
+          .scroll__btn-left, .scroll__btn-right {
+            width: 26px;
+            height: 42px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+            background: rgba(0, 0, 0, .4);
+            color: #FFF;
+            font-size: 26px;
+            display: -webkit-box;
+            -webkit-box-align: center;
+            -webkit-box-pack: center;
+            cursor: pointer;
+            left: 0;
+
+            i {
+              position: absolute;
+              left: 0;
+            }
+          }
+
+          .scroll__btn-right {
+            right: 0;
+            left: auto;
+          }
+
+          h3 {
+            font-size: 14px;
+            color: #444444;
+            margin: 18px 0 0 24px;
+          }
+        }
+      }
+
+      .interest-istributio {
+        -webkit-box-flex: 1;
+        width: 1px;
+        box-sizing: border-box;
+        position: relative;
+
+        h3 {
+          position: absolute;
+          top: 18px;
+          left: 24px;
+          z-index: 10;
+          font-size: 14px;
+          color: #444444;
+        }
+      }
+    }
+
+    .analysis-suggestio__top {
+      border-top: 1px #DDD solid;
+    }
+
+    @media screen and (max-width: 1600px) {
+      .analysis-suggestio__top {
+        border-top: 1px #DDD solid;
+        display: inherit;
+        height: 710px;
+
+        .geo-distributio {
+          width: 100%;
+          border: none;
+          border-bottom: 1px #DDD solid;
+        }
+        .interest-istributio {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  // Advertiser Domain Analysis
+  .advertiser-domain {
+    background: #FFF;
+    margin-top: 24px;
+
+    .title {
+      height: 52px;
+      line-height: 52px;
+      padding: 0 0 0 24px;
+      border-bottom: 1px #DDD solid;
+    }
+    .advertiser-domain__box {
+      display: -webkit-box;
+      padding: 24px;
+      box-sizing: border-box;
+
+      img {
+        width: 196px;
+        height: 146px;
+        margin: 0 24px 0 0;
+        // background: url(../../../assets/MaskCopy.png) no-repeat 0 0;
+      }
+
+      .advertiser-domain__content {
+        -webkit-box-flex: 1;
+        width: 1px;
+
+        h4 {
+          font-size: 22px;
+          color: #444444;
+          line-height: 22px;
+        }
+
+        p {
+          font-size: 16px;
+          color: #777;
+          word-wrap: break-word;
+          line-height: 26px;
+        }
+      }
+    }
+
+    ul {
+      display: -webkit-box;
+      display: box;
+      border-top: 1px #EEE solid;
+
+      li {
+        width: 1px;
+        -webkit-box-flex: 1;
+        padding: 16px;
+        box-sizing: border-box;
+        position: relative;
+        width: 33.3333%;
+        
+        &:after {
+          content: '';
+          position: absolute;
+          height: 48px;
+          width: 1px;
+          background: #EEE;
+          right: 0;
+          top: 21px;
+        }
+
+        img {
+          margin: -2px 5px 0 0;
+        }
+
+        h4 {
+          font-size: 22px;
+          color: #444;
+          margin: 0;
+          display: block;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+
+        p {
+          font-size: 14px;
+          color: #777;
+        }
+      }
+
+      li:nth-child(1) .iconfont {
+        color: #58C48C;
+      }
+      li:nth-child(3) .iconfont {
+        color: #58C48C;
+      }
+      li:nth-child(4) .iconfont {
+        color: #B880DB;
+      }
+      li:nth-child(5) .iconfont {
+        color: #56D1E0;
+      }
+      li:nth-child(6) .iconfont {
+        color: #F3A2A1;
+      }
+    }
+
+    @media screen and (max-width: 1600px) {
+      ul {
+        display: block;
+        zoom: 1;
+        overflow: hidden;
+        li {
+          float: left;
+          padding: 24px;
+          box-sizing: border-box;
+        }
+      }
+    }
+  }
+
+  // ads-detail__chars
+  .ads-detail__chars {
+    background: #FFF;
+    display: -webkit-box;
+    border-top: 2px #EEE solid;
+    position: relative;
+    height: 340px;
+
+    &:after {
+      content: '';
+      position: absolute;
+      height: 340px;
+      background: #EEE;
+      width: 1px;
+      overflow: hidden;
+      left: 49.9%;
+    }
+
+    article {
+      -webkit-box-flex: 1;
+      width: 1px;
+      position: relative;
+
+      .title-h3 {
+        font-size: 14px;
+        color: #444;
+        position: absolute;
+        top: 15px;
+        left: 24px;
+        z-index: 1;
+      }
+
+      .visits-stats, .geo-rank {
+        padding: 24px;
+        box-sizing: border-box;
+        display: -webkit-box;
+        -webkit-box-align: center;
+        -webkit-box-pack: center;
+        height: 340px;
+      }
+    }
+  }
+
+  // traffic-ources
+  .traffic-ources {
+    border-top: 2px #EEE solid;
+    background: #FFF;
+    position: relative;
+    height: 340px;
+
+    .title-h3 {
+      font-size: 14px;
+      color: #444;
+      position: absolute;
+      top: 15px;
+      left: 24px;
+      z-index: 1;
+    }
+  }
+
+  .refferral-outgoing-links {
+    border-top: 2px #EEE solid;
+    background: #FFF;
+    position: relative;
+    padding: 0 0 40px 0;
+
+    .title {
+      font-size: 14px;
+      color: #444;
+      position: absolute;
+      top: 15px;
+      left: 24px;
+      z-index: 1;
+    }
+    article {
+      width: 85%;
+      margin: 44px auto 0 auto;
+    }
+  }
+
+  .ads-detail__table {
+    .crawl-opt__label {
+      color: #444;
+    }
+  
+    .ant-carousel .slick-slide {
+      text-align: center;
+      height: 328px;
+      line-height: 160px;
+      overflow: hidden;
+    }
+    
+    .ant-carousel .slick-slide h3 {
+      color: #fff;
+    }
+
+    .offer-information tr {
+      background: #FFF;
+    }
+  
+    .map-box {
+      // zoom: 1;
+      // overflow: hidden;
+
+      .common-map-box {
+
+      }
+
+      .map-box-list {
+        display: inline-block;
+        box-sizing: border-box;
+        height: 328px;
+      }
+    }
+  }
+}
+.svg-container { 
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  vertical-align: middle; 
+  overflow: hidden; 
+}
+

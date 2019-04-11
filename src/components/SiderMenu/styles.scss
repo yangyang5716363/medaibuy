@@ -1,0 +1,118 @@
+// @import "~antd/lib/style/themes/default.less";
+@ease-in-out-circ: cubic-bezier(.78, .14, .15, .86);
+.logo {
+  .limg {
+    // display: inline-block;
+    // vertical-align: middle;
+    height: 36px;
+    width: 115px;
+    z-index: 10;
+    margin-top: 13px;
+    cursor: pointer;
+
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  h1 {
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    margin: 0 0 0 12px;
+    font-family: 'Myriad Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+}
+
+
+.usercenter-sider {
+  min-height: calc(100% - 64px);
+  position: relative;
+  padding-left: 0px;
+  z-index: 10;
+  width: 240px !important;
+  min-width: 240px !important;
+  max-width: 240px !important;
+  .usercenter-menu{
+    background: #fafafa;
+  }
+  .ant-menu-dark, .ant-menu-dark .ant-menu-sub{
+    box-shadow: initial;
+    height: calc(100% - 64px);
+  }
+  .ant-menu-dark .ant-menu-item, .ant-menu-dark .ant-menu-item-group-title, .ant-menu-dark .ant-menu-item > a{
+    color: #777777;
+  }
+  .ant-menu-dark>.ant-menu-item, .ant-menu-dark>.ant-menu-item-group-title, .ant-menu-dark>.ant-menu-item>a{
+    color: #444444;
+  }
+  .ant-menu-dark .ant-menu-item > a:hover{
+    color: #0099e8;
+    text-decoration: unset;
+  }
+  .ant-menu-dark, .ant-menu-dark .ant-menu-sub{
+    color: #444444;
+  }
+  .ant-menu-dark .ant-menu-item:hover, .ant-menu-dark .ant-menu-item-active, .ant-menu-dark .ant-menu-submenu-active, .ant-menu-dark .ant-menu-submenu-open, .ant-menu-dark .ant-menu-submenu-selected, .ant-menu-dark .ant-menu-submenu-title:hover{
+    color: #0099e8;
+  }
+  .ant-menu-dark .ant-menu-item:hover > .ant-menu-submenu-title > .ant-menu-submenu-arrow:after, .ant-menu-dark .ant-menu-item-active > .ant-menu-submenu-title > .ant-menu-submenu-arrow:after, .ant-menu-dark .ant-menu-submenu-active > .ant-menu-submenu-title > .ant-menu-submenu-arrow:after, .ant-menu-dark .ant-menu-submenu-open > .ant-menu-submenu-title > .ant-menu-submenu-arrow:after, .ant-menu-dark .ant-menu-submenu-selected > .ant-menu-submenu-title > .ant-menu-submenu-arrow:after, .ant-menu-dark .ant-menu-submenu-title:hover > .ant-menu-submenu-title > .ant-menu-submenu-arrow:after, .ant-menu-dark .ant-menu-item:hover > .ant-menu-submenu-title:hover > .ant-menu-submenu-arrow:after, .ant-menu-dark .ant-menu-item-active > .ant-menu-submenu-title:hover > .ant-menu-submenu-arrow:after, .ant-menu-dark .ant-menu-submenu-active > .ant-menu-submenu-title:hover > .ant-menu-submenu-arrow:after, .ant-menu-dark .ant-menu-submenu-open > .ant-menu-submenu-title:hover > .ant-menu-submenu-arrow:after, .ant-menu-dark .ant-menu-submenu-selected > .ant-menu-submenu-title:hover > .ant-menu-submenu-arrow:after, .ant-menu-dark .ant-menu-submenu-title:hover > .ant-menu-submenu-title:hover > .ant-menu-submenu-arrow:after, .ant-menu-dark .ant-menu-item:hover > .ant-menu-submenu-title > .ant-menu-submenu-arrow:before, .ant-menu-dark .ant-menu-item-active > .ant-menu-submenu-title > .ant-menu-submenu-arrow:before, .ant-menu-dark .ant-menu-submenu-active > .ant-menu-submenu-title > .ant-menu-submenu-arrow:before, .ant-menu-dark .ant-menu-submenu-open > .ant-menu-submenu-title > .ant-menu-submenu-arrow:before, .ant-menu-dark .ant-menu-submenu-selected > .ant-menu-submenu-title > .ant-menu-submenu-arrow:before, .ant-menu-dark .ant-menu-submenu-title:hover > .ant-menu-submenu-title > .ant-menu-submenu-arrow:before, .ant-menu-dark .ant-menu-item:hover > .ant-menu-submenu-title:hover > .ant-menu-submenu-arrow:before, .ant-menu-dark .ant-menu-item-active > .ant-menu-submenu-title:hover > .ant-menu-submenu-arrow:before, .ant-menu-dark .ant-menu-submenu-active > .ant-menu-submenu-title:hover > .ant-menu-submenu-arrow:before, .ant-menu-dark .ant-menu-submenu-open > .ant-menu-submenu-title:hover > .ant-menu-submenu-arrow:before, .ant-menu-dark .ant-menu-submenu-selected > .ant-menu-submenu-title:hover > .ant-menu-submenu-arrow:before, .ant-menu-dark .ant-menu-submenu-title:hover > .ant-menu-submenu-title:hover > .ant-menu-submenu-arrow:before{
+    background: #0099e8;
+  }
+  .ant-menu-dark .ant-menu-submenu-title .ant-menu-submenu-arrow:after, .ant-menu-dark .ant-menu-sub .ant-menu-submenu-title .ant-menu-submenu-arrow:after, .ant-menu-dark .ant-menu-submenu-title .ant-menu-submenu-arrow:before, .ant-menu-dark .ant-menu-sub .ant-menu-submenu-title .ant-menu-submenu-arrow:before{
+    background: #999999;
+  }
+  .ant-menu-dark .ant-menu-item-selected > a, .ant-menu-dark .ant-menu-item-selected > a:hover{
+    color: #0099e8;
+  }
+  .ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected{
+    color: #0099e8;
+  }
+  .ant-menu-vertical .ant-menu-item:not(:last-child), .ant-menu-vertical-left .ant-menu-item:not(:last-child), .ant-menu-vertical-right .ant-menu-item:not(:last-child), .ant-menu-inline .ant-menu-item:not(:last-child) {
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+}
+
+.parTitle{
+  height: 40px;
+  line-height: 40px;
+  color: rgba(255, 255, 255, 0.65);
+  margin: 6px 0;
+  font-size: 16px;
+  cursor: pointer;
+  :global{
+    .anticon{
+      margin-right: 10px;
+    }
+  }
+  &.showSub{
+    color: #fff;
+  }
+  &:hover{
+    color: #fff;
+  }
+}
+.icon {
+  width: 14px;
+  margin-right: 10px;
+}
+
+:global {
+  .drawer .drawer-content {
+    background: #0086cf;
+  }
+  .ant-menu-submenu>.ant-menu-submenu-title{
+    //display: none;
+  }
+  .ant-menu-sub .ant-menu-submenu-title{
+    display: block;
+  }
+  .ant-menu-item-selected{
+    background-color: transparent !important;
+  }
+}
+.ant-menu-inline-collapsed-tooltip{
+  display: none !important;
+}
+

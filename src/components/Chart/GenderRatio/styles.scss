@@ -1,0 +1,77 @@
+.gender-ratio {
+  height: 100%;
+  width: 100%;
+  background: #FFF;
+
+  h3 {
+    font-size: 16px;
+  }
+
+  article {
+    display: -webkit-box;
+    margin: 85px 0 0 0;
+
+    .gender-ratio__common {
+      width: 116px;
+      -webkit-box-flex: 1;
+      display: -webkit-box;
+      -webkit-box-align: center;
+      -webkit-box-pack: center;
+      position: relative;
+      padding: 0 0 30px 0;
+
+      em {
+        width: 116px;
+        height: 116px;
+        border-radius: 116px;
+        display: block;
+        border: 3px #EEE solid;
+        font-size: 70px;
+        text-align: center;
+        color: #EEE;
+      }
+
+      span {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        text-align: center;
+      }
+    }
+    .gender-ratio__active {
+      em {
+        border: 3px #EF6F6F solid;
+        color: #EF6F6F;
+      }
+    }
+    .gender-ratio__male {
+      em {
+        display: inline-block;
+        background: url(../../../assets/male.svg) no-repeat center center;
+        background-size: 30%;
+      }
+    }
+    .gender-ratio__female {
+      em {
+        display: inline-block;
+        background: url(../../../assets/female.svg) no-repeat center center;
+        background-size: 40%;
+      }
+    }
+    .gender-ratio__female.gender-ratio__active {
+      em {
+        display: inline-block;
+        background: url(../../../assets/femaleA.svg) no-repeat center center;
+        background-size: 40%;
+      }
+    }
+    .gender-ratio__male.gender-ratio__active {
+      em {
+        display: inline-block;
+        background: url(../../../assets/maleA.svg) no-repeat center center;
+        background-size: 30%;
+      }
+    }
+  }
+}

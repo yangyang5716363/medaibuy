@@ -1,0 +1,369 @@
+.login-container{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  .login-container__flex{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .login-content{
+      max-width: 700px;
+      min-width: 300px;
+      margin-right: 120px;
+      &__title{
+        font-size: 44px;
+        color: white;
+      }
+      &__word{
+        font-size: 18px;
+        color: #e4eaec;
+        text-align: justify;
+      }
+    }
+    .login-form{
+      width: 460px;
+      position: relative;
+      &__title{
+        width: 100%;
+        height: 100px;
+        background: white;
+        text-align: center;
+        box-sizing: border-box;
+        line-height: 100px;
+        border-radius: 4px 4px 0 0;
+        span{
+          color: #0099e8;
+          font-size: 28px;
+        }
+      }
+      &__error{
+        color: #EF6F6F;
+        font-size: 14px;
+        background: white;
+        padding: 0 24px 15px 40px;
+        margin-top: -13px;
+        position: relative;
+        .anticon{
+          position: absolute;
+          left: 24px;
+          top: 2px;
+          color: #EF6F6F;
+        }
+      }
+      &__box{
+        padding: 0 25px 24px;
+        width: 100%; 
+        background-color: white;
+        border-radius: 0 0 4px 4px;
+        .ant-form-item-label label{
+          color: #777;
+        }
+        .ant-form-item-required::before{
+          display: none;
+        }
+        :global{
+          .ant-form-explain{
+            position: absolute;
+            line-height: 1;
+            margin-top: 0;
+          }
+          .ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled){
+            border-color: #40a9ff !important;
+          }
+          .has-error .ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled) {
+            border-color: #ff4d4f !important;
+          }
+          .ant-form-item-with-help,.ant-form-item{
+            margin-bottom: 24px;
+          }
+          .login-form__agreement{
+            margin-bottom: 12px;
+            .ant-form-explain{
+              margin-top: -7px;
+            }
+          }
+        }
+      }
+      &__btn{
+        .ant-btn{
+          width: 100%; 
+          background-color: #0099e8; 
+          height: 40px;
+          span{
+            font-size: 16px; 
+            color: #fff;
+          }
+        }
+      }
+      .forgotPassword{
+        a{
+          color: #ddd;
+        }
+      }
+      &__tips{
+        width: 460px;
+        border-radius: 4px;
+        padding: 16px;
+        background: #fad8d8;
+        color: #ef6f6f; 
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        span{
+          font-weight: bold;
+        }
+      }
+    }
+    .forgetPassword.login-form{
+      width: 870px;
+      height: 560px;
+      background-color: white;
+      box-shadow: 0 3px 20px 0 rgba(0,0,0,.15);
+      .login-form__title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgb(238, 238, 238);
+        padding: 0px 24px;
+        height: 70px;
+        background: white;
+        .forgetPassword-title{
+          color: rgb(68, 68, 68);
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}
+.forgetPassword{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow-y: auto;
+  &-flex{
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    width: 870px; 
+    background-color: white;
+    box-shadow: 0 3px 20px 0 rgba(0,0,0,0.15);
+    &__title{
+      padding: 0 24px;
+      height: 70px;
+      display: flex;
+      justify-content: space-between; 
+      align-items: center;
+      border-bottom: 1px solid #eee;
+    }
+    &__content{
+      width: 100%;
+      display: flex;
+      justify-content: space-between; 
+      align-items: center;
+      flex: 1;
+    }
+  }
+}
+.customVcode{
+  .customVcode {
+    :global {
+      .ant-form-item-children {
+        display: contents;
+      }
+  
+      .ant-form-explain, .ant-form-extra {
+        margin-top: 0px
+      }
+    }
+  }
+}
+.forgotPassword {
+  :global {
+    .ant-form-item-control {
+      height: 16px;
+      line-height: 16px;
+    }
+  }
+}
+.button {
+  border:none;
+  &:hover{
+    background-color: #2eabec !important;
+  }
+  &:active {
+    background-color: #008cd3 !important;
+  }
+}
+.userform-modal{
+  z-index: 3;
+  position: absolute;
+  top: 0%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__content{
+    width: 968px;
+    height: 453px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-left{
+      width: 454px;
+      h2{
+        font-size: 18px;
+        margin-bottom: 16px;
+        font-weight: bold;
+      }
+      .left-word{
+        color: #777777;
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 8px;
+      }
+      .left-pic{
+        margin: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 970px;
+    padding: 0 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .login-container .login-container__flex{
+    height: 574px;
+  }
+  .login-container .login-container__flex-register{
+    height: 645px;
+  }
+}
+
+.user {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.messageIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-top: 100px;
+  height: 40%;
+  flex: 1;
+}
+
+.messageBox{
+  width: 1170px;
+  height: 500px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.messageWarp{
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.messageImage{
+  box-sizing: border-box;
+  padding-top: 100px;
+  height: 40%;
+}
+.messageDesc{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-top: 100px;
+  height: 40%;
+}
+.messageInfo{
+  margin-top: -100px;
+  width: 70%;
+  text-align: center;
+  font-size: 26px;
+  color: #000c17;
+}
+.infoBox{
+  display: flex;
+  flex-direction: column;
+}
+
+.questWrap {
+  width: 1200px;
+  background-color: #fff;
+  margin: 24px auto;
+  .title {
+    height: 64px;
+    line-height: 64px;
+    padding-left: 25px;
+    font-size: 20px;
+    color: #444444;
+    border-bottom: 1px solid #EEEEEE;
+  }
+  .content {
+    padding: 30px 25px;
+    .next {
+      float: right;
+    }
+  }
+}
+.questWrap {
+  :global {
+    .ant-btn {
+      width: 100px;
+      height: 35px;
+    }
+  }
+}
+.questionloading{
+  height: 100%;
+  .ant-spin-container{
+    height: 100%;
+  }
+}
+#messageBox{
+  display: inline-block;
+  :global{
+    .ant-message{
+      top: 0 !important;
+      position: relative !important;
+    }
+  }
+}

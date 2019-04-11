@@ -1,0 +1,38 @@
+.basic-layout {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  height: 100vh;
+  padding-top: 64px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  .basic-layout__header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 10000001;
+  }
+  &__bg {
+    background-image: url('./assets/login_bg.jpg');
+    overflow: hidden;
+  }
+  &-container {
+    flex: 1;
+  }
+}
+// 全局样式
+a {
+  &[data-disable=true] {
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+}
+.gloab-empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .ant-empty-description {
+    color: rgba(0, 0, 0, 0.45);
+  }
+}

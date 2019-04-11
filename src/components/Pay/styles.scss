@@ -1,0 +1,164 @@
+
+.product-ecommerce {
+  border-left: 1px solid #DDDDDD;
+  border-top: 1px solid #DDDDDD;
+  &__item {
+    border-right: 1px solid #eee;
+    height: 104px;
+    background: white;
+    text-align: center;
+    color: #aaa;
+    .plansName{
+      padding-top: 16px;
+      color: #777;
+      font-size: 18px;
+    }
+    .plansPrice{
+      color: #444;
+      font-size: 38px;
+    }
+  }
+  &__.item:nth-child(4){
+    border-right-color: #ddd;
+  }
+}
+.product-info{
+  border-top: 1px solid #eee;
+  border-right: 1px solid #DDDDDD;
+  margin-bottom: 40px;
+  font-size: 16px;
+  text-align: center;
+  &__list:first-child{
+    text-align: left;
+    .product-info__listitem {
+      padding-left: 16px;
+      border-left-width: 1px !important;
+      border-left-color: #ddd;
+    }
+  }
+  .product-info__listitem{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+  }
+  .product-info__selectBtn{
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 1px solid #DDDDDD;
+    border-left: 1px solid #eee;
+    background: white;
+    :global{
+      .ant-btn-primary{
+        background-color: #0099e8;
+        border-color: #0099e8;
+      }
+      .ant-btn:hover, .ant-btn:focus {
+        border-color: #008cd3;
+        background: #008cd3;
+      }
+      .ant-btn-primary.disabled, .ant-btn-primary[disabled], .ant-btn-primary.disabled:hover, .ant-btn-primary[disabled]:hover, .ant-btn-primary.disabled:focus, .ant-btn-primary[disabled]:focus, .ant-btn-primary.disabled:active, .ant-btn-primary[disabled]:active, .ant-btn-primary.disabled.active, .ant-btn-primary[disabled].active {
+        color: #bdbdbd;
+        background-color: #eee;
+        border-color: #d9d9d9;
+      }
+    }
+  }
+}
+.product-media{
+  background: white;
+  border-radius: 3px;
+  height: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 64px; 
+  &-img{
+    width: 640px;
+  }
+  &-left{
+    width: 400px;
+    .ant-btn-primary {
+      color: #fff;
+      background-color: #0099e8;
+      border-color: #0099e8;
+      text-shadow: none;
+      box-shadow: none;
+      border-radius: 3px;
+    }
+    &__pirce{
+      margin-bottom: 24px;
+      color: #0099e8;
+      font-size: 40px;
+      &-unit{
+        color: #AAAAAA;
+        font-size: 14px;
+      }
+    }
+  }
+  &__info{
+    width: 370px;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 24px;
+    h2{
+      color: #444;
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+    span{
+      display: inline-block;
+      padding-left: 22px;
+    }
+  }
+  :global{
+    .ant-btn{
+      height: 40px;
+      line-height: 40px;
+      width: 240px;
+      font-size: 16px;
+    }
+  }
+}
+.instructions {
+  border: 1px solid #fde2a1;
+  padding: 16px 0;
+  margin-top: 24px;
+  border-radius: 3px;
+  background: transparent;
+  background-color: #fefaf1;
+  .instructionsTitle {
+    line-height: 30px;
+    font-size: 16px;
+    margin: 0 15px 0 15px;
+    color: #eebf4e;
+  }
+  .instructionsContent {
+    line-height: 25px;
+    font-size: 15px;
+    margin-left: 40px;
+    color: #777;
+  }
+  :global {
+    .action {
+      font-size: 16px;
+      margin-right: 10px;
+      color: #eebf4e;
+    }
+  }
+}
+
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+.clear:after {
+  clear: both;
+  display: block;
+  content: '';
+  overflow: hidden;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="425px" height="819px" viewBox="0 0 425 819" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>女未选中</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.6 424.943991 0.6 424.943991 818.998 0 818.998"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="nv">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-2"></g>
+            <path d="M131.73,81.401 C131.73,126.026 167.906,162.202 212.531,162.202 C257.156,162.202 293.332,126.026 293.332,81.401 C293.332,36.776 257.156,0.6 212.531,0.6 C167.906,0.6 131.73,36.776 131.73,81.401 Z" id="Fill-1" fill="#EFEFEF" mask="url(#mask-2)"></path>
+            <path d="M421.332,604.6 C390.211,514.28 335.332,354.28 311.73,286.6 C272.531,174.202 155.73,166.998 113.332,288.6 C89.332,357.319 34.051,514.678 3.73,603.799 C-9.867,643.799 14.934,670.998 58.133,670.998 L153.012,670.998 C156.133,693.881 163.973,751.241 166.934,773.401 C170.133,797.401 187.41,818.998 212.531,818.998 C237.57,818.998 255.332,798.362 258.133,773.401 C260.691,750.6 268.691,693.721 271.973,670.998 L368.531,670.998 C411.73,670.998 434.211,641.959 421.332,604.6 Z" id="Fill-3" fill="#EFEFEF" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

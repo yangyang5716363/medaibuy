@@ -1,0 +1,64 @@
+.ads-samples {
+
+  .ads-samples__navs {
+    height: 56px;
+    line-height: 56px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    background: #FFF;
+    cursor: pointer;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 0 24px 0;
+    border-bottom: 1px #DDD solid;
+    box-shadow:0px 1px 5px 0px rgba(0,0,0,0.08)
+  }
+  .ads-samples__navs li {
+    margin: 0 56px 0 0;
+    border: none;
+  }
+  .ads-samples__navs li.active {
+    color: #2F3847;
+    font-weight: bold;
+    border-bottom: 2px #000 solid;
+  }
+  .ads-samples__sort {
+    display: -webkit-box;
+    line-height: 31px;
+    margin: 24px 0;
+
+    span {
+      font-size: 16px;
+      color: #777;
+      margin: 0 15px 0 0;
+    }
+
+    ul {
+      display: -webkit-box;
+      
+      li {
+        border: 1px #DDD solid;
+        border-radius:3px;
+        padding: 0 10px;
+        margin: 0 8px 0 0;
+        color: #777;
+        cursor: pointer;
+        height: 32px;
+        box-sizing: border-box;
+        background: #FFF;
+      }
+      li.active {
+        background: #2F3847;
+        color: #FFF;
+        border: 1px #F3F5F8 solid;
+      }
+    }
+  }
+
+  .ads-empty {
+    border: 1px #f00 solid;
+  }
+}
+.ads-samples-top {
+  padding: 24px 0 0 0;
+}

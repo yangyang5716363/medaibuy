@@ -1,0 +1,38 @@
+.home {
+  width: 100%;
+  height: 100%;
+  &-recommend {
+    padding: 0 24px;
+    min-height: 232px;
+    &__loading {
+      padding: 10px;
+      height: 312px;
+      background: #fff;
+    }
+    &__line {
+      position: relative;
+      height: 1px;
+      margin: 24px;
+      background-color: #eeeeee;
+      &:after {
+        content: attr(data-label);
+        position: absolute;
+        height: 24px;
+        left: 50%;
+        top: -12px;
+        width: 246px;
+        margin-left: -123px;
+        text-align: center;
+        padding: 0 24px;
+        color: #999999;
+        background: #F3F5F8;
+      }
+    }
+  }
+  &-analysis {
+    padding: 0 24px;
+  }
+  .bar-graph {
+    padding: 9px 0 !important;
+  }
+}

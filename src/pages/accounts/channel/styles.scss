@@ -1,0 +1,91 @@
+.usercenter{
+  padding-top: 50px;
+  height: 100%;
+  position: relative;
+  &-header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 99;
+    padding-left: 20px;
+    background: #FFF;
+    border-bottom: 1px solid #ddd;
+    color: #444;
+  }
+  &-contenerTap{
+    background: none;
+    padding: 0;
+    .ant-tabs-nav-wrap{
+      padding: 0 24px;
+    }
+    .ant-tabs-bar{
+      background: white;
+      position: fixed;
+      width: 100%;
+      z-index: 1;
+      border-bottom: 0 none;
+    }
+    .ant-tabs-nav .ant-tabs-tab-active {
+      color: #0F1C2D;
+    }
+    .ant-tabs-ink-bar {
+      background-color: #0F1C2D;
+    }
+    .ant-tabs-nav .ant-tabs-tab:hover {
+      color: #444B54;
+    }
+    .ant-tabs-content{
+      margin-top: 66px;
+    }
+    .ant-tabs-nav .ant-tabs-tab{
+      padding: 15px 0;
+    }
+    .ant-tabs-tabpane{
+      background: white;
+      margin: 8px 24px;
+    }
+  }
+}
+.channel-content{
+  &__header{
+    padding: 16px;
+    font-size: 14px;
+    color: #777;
+  }
+  &__flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    #foo_chanelUser {
+      display: inline-block;
+      line-height: 30px;
+      outline: none;
+      padding: 0 5px;
+      width: 260px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border: 1px solid #ddd;
+    }
+    .btn_chanelUser {
+      line-height: 32px;
+      width: 70px;
+      color: #fff;
+      background-color: #0099e8;
+      cursor: pointer;
+      border: 0;
+      padding: 0 7px;
+    }
+  }
+  .paddingRow {
+    padding: 0 5px;
+    color: #444;
+    display: inline-block;
+  }
+  span.paddingRow{
+    color: #777;
+  }
+}

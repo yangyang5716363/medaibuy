@@ -1,0 +1,221 @@
+
+.usercenter {
+  overflow: hidden;
+  padding-top: 50px;
+  position: relative;
+  &-header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 99;
+    padding-left: 20px;
+    background: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .08);
+    color: #444;
+  }
+}
+
+:global {
+  .dashboard {
+    height: calc(100vh - 116px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0 auto;
+    background-color: #ecf0f5;
+    .ant-card-head {
+      padding: 0  15px !important;
+    }
+    .ant-card-body {
+      padding: 10px;
+    }
+    .ant-card-head-title {
+      color: #0099e8;
+      text-align: left;
+      font-weight: normal;
+    }
+    .ant-list-split .ant-list-item {
+      border-bottom: none;
+    }
+    ::-webkit-scrollbar-thumb:vertical {
+      height: 5px;
+      background-color: #ddd;
+      -webkit-border-radius: 6px;
+    }
+    ::-webkit-scrollbar-track-piece {
+      background-color: transparent;
+      -webkit-border-radius: 6px;
+    }
+  }
+}
+
+.messageItem {
+  padding: 5px 0 5px 22px;
+  position: relative;
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 4px;
+    top: 13px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #EEBF4E;
+  }
+  h4 {
+    font-weight: normal;
+    a {
+      color: #000;
+    }
+  }
+  .numup {
+    color: #3dbd7d;
+  }
+  .numdown {
+    color: #ef6f6f;
+  }
+  :global {
+    .anticon {
+      margin-right:5px;
+    }
+  }
+}
+
+.historyItem {
+  padding: 5px;
+  :global {
+    .ant-list-item-meta {
+      color: red;
+    }
+    .ant-list-item-content {
+      color: red;
+    }
+  }
+}
+.favorites {
+  :global {
+    .ant-list-split .ant-list-item{
+      padding: 2px 5px 0;
+    }
+  }
+}
+
+.infosCardContainer{
+  margin: 10px auto;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  &.popularAds {
+    padding: 0 20px;
+    text-align: left;
+    overflow: visible;
+    :global {
+      .visible-carousel>.slick-list {
+        overflow:visible;
+      }
+      .ant-card-wider-padding .ant-card-body {
+        padding: 20px 10px;
+      }
+      div.sitecards_card{
+        min-height:auto !important;
+        height:392px !important;
+      }
+      div.obox{
+        height:390px !important;
+        &.ant-card-hoverable:hover{
+          box-shadow: none;
+        }
+      }
+    }
+    &::before{
+      content:'';
+      position: absolute;
+      left:0px;
+      width:21px;
+      height:100%;
+      top:0;
+      background: #ecf0f5;
+      bottom:0;
+      border-right:1px solid #e8e8e8;
+      z-index: 999;
+    }
+    &::after{
+      content:'';
+      position: absolute;
+      right:0px;
+      width:21px;
+      height:100%;
+      top:0;
+      bottom:0;
+      background: #ecf0f5;
+      border-left:1px solid #e8e8e8;
+      z-index: 999;
+    }
+  }
+  :global{
+    .ant-card-head{
+      height: 48px;
+      line-height: 48px;
+    }
+    .ant-card-head-title{
+      padding:0;
+    }
+    .ant-card-extra{
+      padding:0;
+    }
+  }
+  .infosCardItem{
+    height:314px;
+    overflow:hidden;
+    margin: 10px;
+  }
+  .infosAdItem{
+    width:380px;
+    height:470px;
+    overflow:hidden;
+    float:left;
+    margin: 12px;
+  }
+  .infosCardContent{
+    height: 240px;
+    overflow-y: auto;
+    text-align: left;
+  }
+  .infosCardAds{
+    dl{
+      overflow: hidden;
+      dt{
+        float: left;
+        width: 100px;
+        height: 70px;
+        overflow: hidden;
+        margin-right: 15px;;
+        img{
+          width: 100px;
+          height: 70px;
+          border: 1px solid #d9d9d9;
+          border-radius: 4px;
+        }
+      }
+      dd{
+        margin-bottom: 3px;
+      }
+    }
+  }
+
+}
+.noData{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding-top: 140px;
+  font-size: 16px;
+  color: #8a8a8a;
+  padding: 140px 20px 0;
+  background-position-y: 28px;
+}

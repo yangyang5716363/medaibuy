@@ -1,0 +1,35 @@
+.operation {
+  padding: 12px 24px;
+  margin-bottom: 12px;
+  &__panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  &-label {
+    color: #777777;
+    font-size: 16px;
+  }
+  &-list {
+    flex: 1;
+    margin-left: 12px;
+    &-item {
+      display: inline-block;
+      margin-right: 8px;
+      padding: 0px 8px;
+      height: 32px;
+      line-height: 31px;
+      background-color: #ffffff;
+      color: #777777;
+      border-radius: 3px;
+      border:1px solid #DDDDDD;
+      user-select: none;
+      cursor: pointer;
+      &__checked {
+        background-color: #2F3847;
+        border-color: #2F3847;
+        color: #ffffff;
+      }
+    }
+  }
+}

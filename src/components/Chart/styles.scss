@@ -1,0 +1,49 @@
+.chart-tooltip {
+  // width: 162px;
+  padding: 4px 0;
+  background: #fff;
+  &>p {
+    padding: 0px 8px;
+  }
+  &>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    >li {
+      padding: 2px 8px;
+      >i {
+        display: inline-block;
+        vertical-align: middle;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: red;
+      }
+      >span {
+        margin: 0 4px;
+        display: inline-block;
+        vertical-align: middle;
+        &:first-child {
+          max-width: 112px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+  &__btn {
+    margin-top: 8px;
+    text-align: center;
+    a {
+      background: #009AE8;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      outline: 0;
+      cursor: pointer;
+      text-align: center;
+      padding: 2px 8px;
+    }
+  }
+}

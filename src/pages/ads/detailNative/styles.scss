@@ -1,0 +1,193 @@
+.native-detail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: hidden auto; 
+  padding: 24px;
+
+  .advertising-card__image img {
+    width: 100%;
+  }
+
+  .native-detail__advertising {
+    display: -webkit-box;
+    position: relative;
+
+    .advertising-card-box {
+      position: relative;
+      width: 502px;
+      
+      .advertising-card {
+        // 这里后期要去掉 改成自适应
+        max-width: 502px;
+        min-width: 502px;
+        width: auto;
+        position: relative;
+        padding: 0;
+      }
+
+      .advertising-card-padding {
+        padding: 10px 10px 50px 10px;
+      }
+    }
+    
+    .native-detail__table {
+      -webkit-box-flex: 1;
+      margin: 0 0 0 24px;
+
+      .basic-information {
+        width: 100%;
+  
+        tr {
+          height: 40px;
+          line-height: 40px;
+          border-bottom: 1px #EEE solid;
+          background: #FFF;
+        }
+        tr:nth-child(2n) {
+          background: #F7F7F7;
+        }
+        tr td:first-child {
+          color: #777;
+          width: 155px;
+          text-align: right;
+        }
+        tr td:last-child {
+          padding: 0 0 0 48px;
+          color: #444;
+        }
+      }
+    }
+  }
+
+  .landing-pages, .outgoing-links, .redirect {
+    li {
+      color: #0099E8;
+      line-height: 40px;
+      box-sizing: border-box;
+      padding: 0 0 0 24px;
+      font-size: 12px;
+      border-bottom: 1px #DDD solid;
+
+      span {
+        display: inline-block;
+        line-height: 18px;
+        height: 20px;
+        padding: 0 13px;
+        color: #AAA;
+        border: 1px #DDD solid;
+        border-radius: 3px;
+        margin: 0 0 0 16px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .native-detail__publisher {
+    margin: 24px 0 0 0;
+    .crawl-item-children {
+      padding: 0;
+    }
+  }
+
+  // native-detail__device-type 柱形图标
+  .native-detail__device-type {
+    
+    margin: 24px 0 0 0;
+    display: -webkit-box;
+
+    .device-type {
+      -webkit-box-flex: 1;
+      width: 1px;
+      margin: 0 24px 0 0;
+      background: #FFF;
+      
+      article {
+        height: 100%;
+        display: -webkit-box;
+        -webkit-box-align: center;
+        -webkit-box-pack: center;
+        background: #FFF;
+        height: 465px;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      h3 {
+        height: 48px;
+        line-height: 48px;
+        border-bottom: 1px #DDD solid;
+        box-sizing: border-box;
+        padding: 0 0 0 24px;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.65);
+      }
+    }
+
+    .geo {
+      -webkit-box-flex: 1;
+      width: 1px;
+      background: #FFF;
+
+      article {
+        height: 100%;
+        display: -webkit-box;
+        -webkit-box-align: center;
+        -webkit-box-pack: center;
+        background: #FFF;
+        height: 465px;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      h3 {
+        height: 48px;
+        line-height: 48px;
+        border-bottom: 1px #DDD solid;
+        box-sizing: border-box;
+        padding: 0 0 0 24px;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.65);
+      }
+    }
+  }
+
+  .origin-url {
+    margin: 24px 0 0 0;
+    background: #FFF;
+
+    h3 {
+      color: #444;
+      line-height: 48px;
+      line-height: 48px;
+      box-sizing: border-box;
+      padding: 0 0 0 24px;
+      font-size: 16px;
+      font-weight: normal;
+      border-bottom: 1px #DDD solid;
+      margin: 0;
+    }
+
+    .outgoing-links-box {
+      .title-h3 {
+        margin: 0;
+        position: relative;
+      }
+
+      .select {
+        border-bottom: 1px #EEE solid;
+        padding: 10px 10px 10px 24px;
+      }
+    }
+    .outgoing-hidden {
+      ul {
+        height: auto;
+      }
+    }
+  }
+
+  .ant-table-pagination.ant-pagination {
+    margin-right: 20px;
+  }
+}

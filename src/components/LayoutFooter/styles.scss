@@ -1,0 +1,30 @@
+.footer {
+  height: 66px;
+  background: white;
+  height: 66px;
+  width: 100%;
+  line-height: 66px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  .copyright {
+    color: #777777;
+  }
+  .link {
+    color: #0099e8;
+    a {
+      display: inline-block;
+      color: #0099e8;
+      text-decoration: none;
+      &:nth-child(2n) {
+        &:before {
+          content: '/';
+          margin: 0 12px;
+        }
+      }
+    }
+    i {
+      padding: 0 20px;
+    }
+  }
+}

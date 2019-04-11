@@ -1,0 +1,37 @@
+
+html,
+body,
+#root {
+  height: 100%;
+}
+p {
+  margin: 0 !important;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+ul, ol, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+// 滚动条整体部分，可以设置宽度啥的
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #ccc;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #627391;
+}
+
+@import './styles/core.scss';
+@import './styles/font.scss';
+@import './styles/nprogress.scss';
+@import './styles/cover.scss';

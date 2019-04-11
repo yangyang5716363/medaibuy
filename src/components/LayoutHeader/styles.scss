@@ -1,0 +1,113 @@
+.header {
+  display: flex;
+  width: 100%;
+  height: 64px;
+  background:linear-gradient(90deg,rgba(47,56,71,1) 0%,rgba(69,82,105,1) 100%); 
+  color: rgba(255,255,255,0.8);
+  padding-left: 24px;
+  line-height: 64px;
+  &__opacity {
+    background: none;
+  }
+  &-menu {
+    margin-left: 84px;
+    &__item{
+      color: rgba(255,255,255,0.7);
+      padding: 0 20px;
+      display: inline-block;
+      cursor: pointer;
+      font-size: 16px;
+      text-decoration: none;
+    }
+    &__item:hover,&__item.acitve{
+      color: rgba(255,255,255,1);
+    }
+  }
+  &-search {
+    flex: 1;
+    text-align: center;
+  }
+  &-right{
+    margin-left: 20px;
+    &__icon {
+      border-right: 1px solid rgba(255,255,255,0.2);
+      border-left: 1px solid rgba(255,255,255,0.2);
+      padding: 0 24px;
+      font-size: 20px;
+      vertical-align: top;
+    }
+    &__bell{
+      font-size: 20px;
+      color: inherit
+    }
+    &__bell:hover{
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+  &-userInfo {
+    padding-left: 76px;
+    padding-right: 24px;
+    position: relative;
+    line-height: 20px; 
+    .anticon-down {
+      font-size: 12px;
+    }
+    &__avatar{
+      left: 24px;
+      top: 16px;
+      position: absolute;
+    }
+    &__name{
+      font-size: 16px;
+      height: 30px;
+      line-height: 30px;
+    }
+    &__level{
+      height: 30px;
+      line-height: 30px;
+      font-size: 16px;
+      .anticon{
+        margin-right: 10px;
+      }
+    }
+  }
+  &-btn {
+    padding-left: 45px;
+    padding-right: 45px;
+    &__signUp, &__login {
+      height: 30px;
+      width: 100px;
+      line-height: 30px;
+    }
+    &__login{
+      margin-right: 20px;
+    }
+  }
+}
+.marginLeft40 {
+  margin-left: 40px;
+}
+.inlineBlock {
+  display: inline-block;
+}
+.header-userInfo__menu{
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 0 0 4px 4px;
+  .ant-dropdown-menu-item{
+    padding-left: 25px;
+    border-bottom: 1px solid rgba(238,238,238,1);
+    color: #777;
+    font-size: 14px;
+    line-height: 38px;
+    .header-userInfo__icon {
+      color: #aaa;
+      font-size: 15px;
+      margin-right: 8px;
+    }
+    &:last-child{
+      border-bottom: 0 none;
+      border-radius: 0 0 0 4px;
+    }
+  }
+}

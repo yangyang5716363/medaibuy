@@ -1,0 +1,36 @@
+.common-table {
+  width: 100%;
+
+  thead {
+    tr td {
+      text-align: left;
+      height: 48px;
+      line-height: 48px;
+      padding: 0 0 0 24px;
+      font-size: 16px;
+      border-bottom: 2px #DDD solid;
+      color: #444;
+      span {
+        margin: 0 0 0 10px;
+      }
+    }
+  }
+  tr {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px #EEE solid;
+    background: #FFF;
+  }
+  tr:nth-child(2n) {
+    background: #F7F7F7;
+  }
+  tbody tr td:first-child {
+    color: #777;
+    width: 155px;
+    text-align: right;
+  }
+  tbody tr td:last-child {
+    padding: 0 0 0 48px;
+    color: #444;
+  }
+}

@@ -1,0 +1,68 @@
+import offer from './en-US/offer'
+
+export default {
+  'app.follow.actived': 'Collection',
+  'app.follow.cancel': 'Uncollect',
+  
+  'app.menu.title.home': '主页',
+  'app.menu.title.offer': 'offers',
+  'app.menu.title.ads': 'Ads Samples',
+  'app.menu.title.account': 'Accounts',
+  'app.filter.tooltip.clear': 'clear all',
+
+
+  'app.user.footer.copyright': 'Copyright © idvert group limted. All Rights Reserved',
+  'app.user.enterPassword': 'Password cannot be empty',
+  'app.user.setPassword': 'The password must be 6-20 digits long, containing no less than 2 letters, numbers, and special symbols.',
+  'app.user.enterEmail': 'Please enter your e-mail address',
+  'app.user.invalidEmail': 'The input is not valid E-mail!',
+  'app.user.enterVerificationCode': 'The verification code cannot be empty',
+  'app.user.readeTrms': 'Please read the terms of services',
+  'app.user.loginTips': ' If Idvert is not unable to load data when using, you may need to turn off the ADBLOCK extension or related tool in your browser.',
+  'app.user.loginContentTitle': 'Find Your Business Opportunities',
+  'app.user.loginContent': 'Learn great creative ideas, get creative ideas, and learn how to get users. Analysis traffic overview, free strategy, paid strategy. Learn in which platform, what position, which ads are the site running, and the effectiveness.',
+  'app.user.registerTips': 'Registered accounts can be login all Idvert product platform, do not need to regist again.',
+  'app.user.registerErrorTips': 'Your email address has been registered on the platform, you can use this account to log in directly. Or change your mailbox to register.',
+  'app.user.loginLimitTitle': 'Lower browser version or screen resolution',
+  'app.user.loginLimitTips1': 'The system detected that your browser version is low, or the screen resolution is small. You may not having a better platform operation and interactive experience. Please upgrade your browser version or replace a larger screen.',
+  'app.user.loginLimitTips2': 'It is recommended to use the Chrome or 1920x1080 resolution to access the Idvert platform for the best experience.',
+  'app.user.loginLimitTips3': 'If you use a 360 browser, QQ browser, Maxthon or any other multi-core browser, please use the speed access mode..',
+
+  'app.account.infoBasic.lable.email': 'Email',
+  'app.account.infoBasic.lable.username': 'Username',
+  'app.account.infoBasic.lable.firstname': 'First name',
+  'app.account.infoBasic.lable.lastname': 'Last name',
+  'app.account.infoBasic.lable.companyname': 'Company Name',
+  'app.account.infoBasic.lable.industry': 'Industry',
+  'app.account.infoBasic.lable.contact': 'Contact',
+  'app.account.infoBasic.lable.tel': 'Tel',
+  'app.account.infoBasic.lable.address': 'Address',
+  'app.account.infoBasic.lable.version': 'Version',
+  'app.account.infoBasic.lable.lastlogin': 'Last login',
+  'app.account.infoBasic.lable.lastloginip': 'Last login IP',
+  'app.account.infoSecurity.lable.email': 'Email',
+  'app.account.infoSecurity.lable.account': 'Account ID',
+  'app.account.infoSecurity.lable.register': 'Register time',
+  'app.account.infoSecurity.lable.password': 'Password',
+  'app.account.infoSecurity.lable.mailbox': 'Mailbox connected',
+  'app.account.infoSecurity.lable.security': 'Security Question',
+
+  
+  'app.home.analysis.label.index': 'Offer Analysis',
+  'app.home.analysis.label.trend': 'Trends In Offer',
+  'app.home.analysis.label.market': 'Market Share In Offer（Top 5)',
+  'app.home.analysis.label.adSource': 'Offer Source',
+  'app.home.analysis.label.publishers': 'Top Publishers',
+  'app.home.analysis.label.traffic': 'Top Traffic Networks',
+
+  'app.home.analysis.date.help': 'The platform uses Greenwich Mean Time',
+  'app.home.analysis.help.index': 'Analysis the distribution of countries, categories, Publishers, etc. for the advertising offer. Offer from facebook and dsp platform',
+  'app.home.analysis.help.timer': 'The platform uses Greenwich Mean Time',
+  'app.home.analysis.help.trends': 'The trend of the number of offers in each category in the recent',
+  'app.home.analysis.help.market': 'Top 5 countries in each category in last seven days/last month',
+  'app.home.analysis.help.adSource': 'The distribution of offer sources and share in each category. Offer sources include facebook, native, and adult',
+  'app.home.analysis.help.ranking': 'Top 5 publishers by offer amount in each category',
+  'app.home.analysis.help.publishers': 'Top 20 publishers of traffic networks(include native and adult) by offer amount in each category.',
+  'app.home.analysis.help.traffic': 'Top 5 traffic networks(include native and adult) by offer amount in each category.',
+  ...offer
+};

@@ -1,0 +1,32 @@
+.common-image-scroll {
+  position: relative;
+  
+  .common-image-scroll__btn-left,
+  .common-image-scroll__btn-right {
+    width: 26px;
+    height: 42px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background: rgba(0, 0, 0, .4);
+    color: #FFF;
+    font-size: 26px;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    cursor: pointer;
+  }
+  .common-image-scroll__btn-right {
+    right: 0;
+  }
+  .ant-carousel .slick-dots li.slick-active button {
+    background: #FFF;
+  }
+  .ant-carousel .slick-dots li button {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8);
+  }
+}

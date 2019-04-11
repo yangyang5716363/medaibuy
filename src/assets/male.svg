@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="302px" height="820px" viewBox="0 0 302 820" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>男未选中</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.06 0.8 301.809 0.8 301.809 819.999 0.06 819.999"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="nan">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-2"></g>
+            <path d="M237.137,518.191 L237.137,777.003 C237.137,800.749 218.02,819.999 194.062,819.999 L107.75,819.999 C83.957,819.999 64.672,800.546 64.672,777.003 L64.672,518.191 L43.242,518.191 C19.359,518.191 0,498.929 0,475.249 L0,302.499 C0,243.03 48.156,194.82 107.684,194.82 L194.129,194.82 C253.598,194.82 301.809,243.234 301.809,302.499 L301.809,475.249 C301.809,498.964 282.473,518.191 258.57,518.191 L237.137,518.191 Z M150.906,173.265 C198.531,173.265 237.137,134.655 237.137,87.03 C237.137,39.405 198.531,0.8 150.906,0.8 C103.281,0.8 64.672,39.405 64.672,87.03 C64.672,134.655 103.281,173.265 150.906,173.265 Z" id="Fill-1" fill="#EFEFEF" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

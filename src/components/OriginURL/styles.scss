@@ -1,0 +1,84 @@
+.common-url {
+  background: #FFF;
+
+  .common-url__origin {
+    height: 40px;
+    line-height: 40px;
+    color: #0099E8;
+    font-size: 12px;
+    color: #0099E8;
+    box-sizing: border-box;
+    padding: 0 0 0 24px;
+    zoom: 1;
+    overflow: hidden;
+    border-bottom: 1px #DDD solid;
+
+    strong {
+      font-weight: normal;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 80%;
+      display: inline-block;
+      float: left;
+    }
+  }
+
+  .redirect {
+    border-top: 1px #DDD solid;
+
+    li {
+      color: #0099E8;
+      line-height: 40px;
+      box-sizing: border-box;
+      padding: 0 0 0 24px;
+      font-size: 14px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      border-bottom: 1px #DDD solid;
+
+      strong {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+        max-width: 85%;
+        font-weight: normal;
+        margin: 0;
+        padding: 0;
+        vertical-align: top;
+      }
+    }
+  }
+
+  .title-h3 {
+    margin: 0;
+    padding: 0 0 0 31px;
+    position: relative;
+    color: #444;
+    line-height: 48px;
+    box-sizing: border-box;
+    padding: 0 0 0 24px;
+    font-size: 16px;
+    font-weight: normal;
+    border-bottom: 1px #DDD solid;
+  }
+
+  .copy, .download {
+    display: inline-block;
+    line-height: 18px;
+    height: 20px;
+    padding: 0 13px;
+    color: #AAA;
+    border: 1px #DDD solid;
+    border-radius: 3px;
+    margin: 0 0 0 16px;
+    cursor: pointer;
+  }
+  .copy:hover, .download:hover {
+    background: #5CBEF0;
+    border: 1px #FFF solid;
+    color: #FFF;
+  }
+}
